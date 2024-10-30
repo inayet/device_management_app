@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; }
+.navigation { display: flex; gap: 1rem; padding: 1rem; background-color: #f0f0f0; }
+.device-list { display: flex; flex-wrap: wrap; gap: 1rem; padding: 2rem; }
+.device-item { background-color: #f9f9f9; padding: 1rem; border: 1px solid #ddd; border-radius: 5px; width: calc(33% - 2rem); }
+.button { padding: 0.5rem 1rem; background-color: #007BFF; color: white; border-radius: 4px; border: none; cursor: pointer; }
+.button.danger { background-color: #DC3545; }
